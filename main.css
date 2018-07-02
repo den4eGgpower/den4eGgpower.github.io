@@ -1,0 +1,907 @@
+header {
+height: 2%;
+justify-content: space-around;
+align-items: baseline;
+display: flex;
+padding: 2%;
+font-family: 'Gilroy'
+}
+
+.unhide{
+  display: none;
+}
+footer{
+    background : #f8f8f8;
+    display: flex;
+    flex-direction: column;
+    height: 100px;
+    padding: 50px;
+    font-family: 'Gilroy'
+}
+.footerTitle {
+  list-style: none;
+}
+.phone{
+    text-decoration: underline;
+    color: red;
+
+}
+.HeaderTitle{
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    justify-content: space-around;
+    align-items: flex-start;
+    flex-basis: 47%;
+    font-weight: 550;
+
+
+}
+  .yes {
+    font-size: 48px;
+    font-family: "MuseoSansCyrl";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+flex-direction: row;
+display: flex;
+  }
+  .yes2 {
+    font-size: 48px;
+    font-family: "MuseoSansCyrl";
+    color: rgb(0, 0, 0);
+    text-transform: uppercase;
+    line-height: 1.2;
+flex-direction: row;
+display: flex;
+margin-left: -10%;
+  }
+  ._point{
+    color:#e4002b;
+  }
+  .foter1{
+      justify-content: flex-end;
+      display: flex;
+  }
+  .foterImg{
+    margin-right: 20px;
+ 
+  }
+  ._1{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row
+  }
+  .Школа{
+    font: 22px;
+    display: flex;
+    flex-direction: row;
+    list-style: none;
+    margin-left: 1.5%;
+
+  }
+  .margin{
+      margin: 0px;
+  }
+  .marginR{
+      margin-right: 40px
+  }
+.bus{
+    display: flex;
+    flex-direction: row;
+    background-image: url('images/eyes.png');
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+  .forTraveltxt{
+    font-size: 16px;
+    font-family: "Gilroy";
+    width: 300px}
+    
+  .textCol{
+    flex-direction: column;
+  }
+  .button{
+  box-shadow: 0px 10px 18px 0px rgba(246, 27, 60, 0.55);
+
+  box-sizing: border-box;
+  width: 300px;
+  height: 60px;
+  z-index: 20;
+  border-radius: 80px;
+  border: #f00707;
+  color: #ffffff;
+  background: #f00707;
+  font-size: 20px;
+  font-family: "Gilroy";
+  
+}
+  .button:hover{
+    cursor: pointer;
+  background: #9b0909;
+  
+}
+  .button:active{
+  background: #ca5555
+}
+.подчеркивание1 {
+    background-color: rgb(245, 17, 44);
+    width: 64px;
+    height: 7px;
+    margin-left: 27%;margin-top: -4%; margin-bottom: 10%
+  }
+  .Ускоренный {
+    font-size: 34px;
+    font-family: "Gilroy";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+margin: 0;
+  }
+  .курс {
+    font-size: 45px;
+
+  }
+  .text16{
+    font-size: 16px;
+    font-family: "Gilroy";
+
+  }
+  .textImg5{
+    font-size: 16px;
+    font-family: "Gilroy";
+    margin-left: 5%;
+    margin-top: 5%
+  }
+  .Situations{
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/bg2.png');
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    padding: 20%;
+  }
+  .sit{
+    font-size: 48px;
+    font-weight: 600;
+    display: flex;
+    justify-content: flex-start;
+    width: 400px;
+    margin-right: 70%;
+    font-family: 'Gilroy'
+
+
+  }
+  ._01{
+      align-items: center;
+      justify-content: flex-end;
+      flex-direction: row;
+      display: flex;
+      width: 700px;
+      margin-left: 30%;
+      margin-right: 5%;
+
+
+  }
+  ._02{
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+    width: 750px;
+    margin-right: 30%;
+
+  }
+  ._02img5{
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: row;
+    display: flex;
+    width: 750px;
+    margin-right: 30%;
+    width: 800px;
+
+  }
+  .vopros{
+   position: absolute;
+   margin-left: 14%
+
+  }
+  .predictSit{
+    background-image: url('images/img6.png');
+    background-repeat: no-repeat;
+    background-position: right;
+    height: 600px;
+
+  }
+  .predictSitCol{
+
+    width: 700px;margin-left: 27%
+  }
+  .title{
+
+        font-size: 45px;
+        font-family: "Gilroy";
+        color: rgb(0, 0, 0);
+        font-weight: bold;
+        text-transform: uppercase;
+        line-height: 1.2;
+        width: 600px;
+        padding: 5%;
+
+  }
+  .paddingB1{
+  padding-bottom: 1%
+
+  }
+  .paddingB05{
+
+padding-bottom: 0.5%
+  }
+  .fontw600{
+
+    font-weight: 600
+  }
+  .we{
+
+    margin-left: 21%
+  }
+  .textOnColPredict{
+
+    width: 200px;
+  }
+  .column {
+    column-width: 3%;
+    column-count: 3;
+    column-gap: 7%;
+    justify-content: center;
+    align-items: flex-start;
+     
+}
+.teachersImg{
+
+  width: 300px;height: 250px;
+}
+.textBigBen{
+  width: 70%; margin-left: -6%
+}
+.Rubbles{
+  color:red; font-weight: 400; margin-left: -5.5%"
+}
+.Недели{
+  font-weight: 600
+}
+
+.columnTeach {
+  column-width: 3%;
+  column-count: 3;
+  column-gap: 7%;
+  justify-content: center;
+  align-items: flex-start;
+  width: 900px;padding-left: 20%
+   
+}
+.NameTeacher{
+  font-size: 16px;
+  font-family: "Gilroy";
+  font-weight: 600
+
+}
+.textTeacher{
+  font-size: 16px;
+  font-family: "Gilroy";
+  width: 300px;
+
+}
+.подчеркивание2{
+    background-color: rgb(245, 17, 44);
+    position: absolute;
+    width: 64px;
+    height: 7px;
+    margin-left: 15%;
+  }
+  .круг {
+    background-image: url('images/круг.png');
+    background-color: rgb(245, 245, 245);
+
+
+  }
+  .teachers{
+  background-image: url('images/бублик\ копия\ 5.png');
+  background-repeat: no-repeat;
+  background-position: right;
+  padding: 10%;
+  }
+  .who{
+    font-size: 45px;
+    font-family: "Gilroy";
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    text-transform: uppercase;
+    line-height: 1.2;
+    width: 600px;
+display: flex;
+flex-direction: column;
+justify-content: center;
+padding-bottom: 5%;
+padding-left: 20%
+  }
+  .BIGBEN{
+  background-image: url('images/bigben.png');
+  background-repeat: no-repeat;
+  background-position:left;
+  }
+
+  .right{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end; 
+    align-content: center; 
+    padding-left: 40%;
+    padding-top: 10%
+  }
+.pad{
+    font-weight: 600;
+}
+.column3{
+    column-width: 3%;
+    column-count: 2;
+    column-gap: 7%;
+    width: 600px;
+
+}
+.howItPass{
+    display: flex;
+    flex-direction: column;
+    background-image: url('images/bg.png');
+    background-repeat: no-repeat;
+    justify-content: center;
+    align-items: center;
+    height: 2300px;
+    
+}
+.howdiv{
+ margin-top: -20%
+}
+
+.correctWegth{
+    width: 900px
+}
+.w500px{
+  width: 500px;
+}
+.mgt{
+  margin-top:15%
+}
+.review{
+justify-content: center;
+display: flex;
+flex-direction: column;
+align-content: flex-start;
+margin-left: 15%;
+margin-top: -17%;
+}
+.studentReview{
+    display: flex;
+    flex-direction: row;
+    margin-left: 6%;
+    overflow-x: scroll;
+    width: 900PX;
+}
+
+
+.scroll::-webkit-scrollbar {
+  width: 10px;
+  height: 10px
+
+}
+ 
+.scroll::-webkit-scrollbar-thumb {
+  background: red;
+  border-radius: 20px;
+}
+
+.scroll::-webkit-scrollbar-track {
+  background: #ddd;
+  border-radius: 20px;
+}
+.photo{
+    width: 30%;
+    height: 30%;
+
+}
+.vkcom{
+text-decoration: underline;
+color: red;
+
+}
+.textReview{
+  width: 1100px;
+    margin-left: 5%;
+}
+.textCorrect{
+    margin: 0;
+    width: 600PX;;
+}
+.plane{
+
+display: flex;
+flex-direction: row;
+justify-content: center;
+background-image: url('images/plane.png');
+background-repeat: no-repeat;
+
+height: 700px;
+margin-top: 10%
+
+
+}
+.planeFix{
+    margin-top: 10%;
+    margin-left: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: baseline;
+    align-items: flex-start;
+    width: 400px;
+
+
+}
+aside{
+  background-color: #ffffff;
+  width: 57%;
+  height: 600px;
+  position: absolute;
+  top: 30%;
+  left: 20%;
+  text-align: center;
+  justify-content: center;
+display: none;
+}
+.ПробноеЗаголовок{
+  font-size: 48px;
+  font-family: "Gilroy";
+  padding-top: 10%;
+  font-weight: 600
+}
+.импут {
+  border-width: 1px;
+  border-color: rgb(186, 186, 186);
+  border-style: solid;
+  font-size: 36px;
+  box-sizing: border-box;
+  width: 360px;
+  height: 60px;
+  z-index: 20;
+  border-radius: 80px;
+}
+.buttonOnWindow{
+  width: 360px;
+}
+.textOnWindow{
+  width: 500px;
+  margin-left: 24%;    margin-bottom: 3%;
+  margin-top: 3%;
+}
+.close{
+  
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  margin: 2%;
+  MARGIN-LEFT: 96%;
+}
+.close:hover{
+  cursor: pointer;
+}
+.dialog {
+  top: 0;
+  position: absolute;
+  background-color: rgba(128, 128, 128, 0.5);
+  width: 100%;
+  height: 1382%;
+  display: none;
+}
+
+@media screen and (max-width: 300px) {
+  .hide{
+    display: none;
+
+  }
+  .mgl-20{
+    margin-left: 0
+  }
+  .HeaderTitle {
+
+    list-style: none ;
+    align-items: flex-start ;
+    justify-content: flex-end;
+    display: block ;
+    flex-direction: column;
+    width: 80%;
+    align-items: baseline;
+    margin-top: 3.5%;
+    
+}
+header{
+  align-items: flex-start
+}
+.bus{
+    display: block;
+    justify-content: center;
+    flex-direction: column;
+    width: 300px;
+    margin: 0;
+    padding: 0;
+}
+.busSmall{
+  width: 300px;
+  height: 400px;
+}
+.title {
+  font-size: 29px;
+  width: 261px;
+  text-align: center;
+}
+.text16{
+  font-size: 16px
+}
+.textCol{
+  justify-content: center;
+  text-align:center }
+  
+.Ускоренный{
+font-size: 25px
+
+}
+.курс{
+  font-size: 30px
+
+}
+.button{
+ padding: 0;margin: 0;
+ margin-left: -2%;
+ position: static
+}
+.Situations{
+margin-top: 10%;padding: 0;
+
+}
+.sit {
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+  text-align: center;
+  font-size: 41PX;
+  width: 300px;
+}
+._01{
+  display: block;
+  flex-direction: column;
+  margin-left: 25%;padding: 0;
+  justify-content: center ;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 5%
+}
+.photored{
+  width: 250px;
+  height: 200px;
+  margin-left: -19%;
+  margin-top: 5%
+}
+.photored3{
+  width: 250px;
+  height: 330px;
+  margin-left: -19%;
+  margin-top: 5%
+}
+.photored2 {
+  width: 230px;
+  height: 300px;
+  margin-left: -19%;
+  margin-top: 5%;
+}
+.photored4 {
+  margin-top: 43%;
+  width: 250px;
+  margin-left: 19%;
+}
+._02{
+  display: block;
+  flex-direction: column;
+  margin-left: 25%;padding: 0;
+  justify-content: center ;
+  width: 250px;
+  text-align: center;
+  margin-bottom: 5%
+}
+.textImg5 {
+  display: block;
+  flex-direction: column;
+  margin-left: 29%;
+  padding: 0;
+  justify-content: center;
+  width: 200px;
+  text-align: center;
+  margin-bottom: 82%;
+  margin-top: -98%;
+}
+.cooorrr {
+  margin-bottom: 68%;
+  margin-top: -183%;
+  margin-left: 12%;
+  width: 225px;
+}
+.cooorr {
+  margin-top: 278%;
+  margin-left: 12%;
+}
+.we{
+  width: 200px;
+  text-align: center;
+  width: 286px;
+  padding: 0;
+  font-size: 21px;
+  margin-left: 0;
+}
+.predictSit{
+  background: unset;
+  height: 420px;
+}
+.подчеркивание1{
+  height: 7px;
+  margin-left: 39%;
+  margin-top: 6%;
+}
+.column{
+  column-count: 1;
+  text-align: center;
+  width: 200px;
+
+}
+.fontw600 {
+  margin-left: -33%;
+}
+.textOnColPredict {
+  margin-left: -13%;
+}
+.who {
+  font-size: 35px;
+ 
+  width: 291px;
+  display: block;
+  padding-bottom: 0%;
+  padding-left: 0%;
+  margin-left: -10%;
+  text-align: center;
+}
+.columnTeach {
+
+  column-count: 1;
+
+
+  width: 100%;
+padding: 0;
+}
+.teachersImg {
+  width: 290px;
+  height: 250px;
+  margin-left: -11%;
+}
+.NameTeacher {
+
+  margin-left: -10%;
+}
+.textTeacher {
+
+  margin-left: -10%;
+}
+.BIGBEN {
+ background-image: none;
+}
+.right {
+   display: block;
+  flex-direction: column;
+   justify-content: flex-start; 
+   align-content: center; 
+   padding-left: 0%; 
+   padding-top: 0%; 
+  text-align: center;
+}
+.textBigBen {
+  margin-left: 2%;
+}
+.Rubbles {
+
+margin-left: 4px; 
+}
+.howdiv {
+  margin-top: -70%;
+}
+.correctWegth {
+  width: 268px;
+}
+.imgfor300px {
+  width: 85%;
+  margin-left: -15%;
+}
+
+.swap {
+  margin-top: -65%;
+}
+.howItPass {
+  display: block;
+  width: 300px;
+  background-image: url(images/bg.png);
+  background-repeat: no-repeat;
+  align-items: center;
+  margin-top: 78%;
+  margin-left: -14%;
+}
+.marginFor300px {
+  width: 264px;
+  margin-left: -8%;
+}
+.ml1{
+  margin-left: 13%
+}
+.number2 {
+  margin-bottom: -43%;
+  margin-top: 48%;
+  margin-left: 0%;
+}
+
+.number4 {
+  margin: -41%;
+  margin-top: 45%;
+  margin-left: -54%;
+}
+.number3{
+  
+    margin-top: 64%;
+
+}
+.repeat{
+  
+    margin-left: -10%;
+
+}
+.column3 {
+  column-width: 3%;
+  column-count: 1;
+  column-gap: 7%;
+ width: 300px;
+}
+.review {
+  display: block;
+  align-content: flex-start;
+  margin-left: -7%;
+  margin-top: -358%;
+  text-align: center;
+  width: 300px;
+}
+.влево {
+  margin-left: 8%;
+  font-size: 35px;
+}
+.textCorrect {
+  margin: 0;
+  margin-left: 1%;
+  width: 273px;
+}
+.textReview {
+  width: 290px;
+  margin-left: -25%;
+  margin-top: 58%;
+  margin-right: 22%;
+}
+.studentReview {
+  width: 300px;
+}
+.photoreview{
+
+  margin-left: 77%;
+}
+.plane {
+  display: block;
+  background-image:none;
+  margin-top: 0%;
+  height: 300px;
+}
+.planeFix {
+   margin-top: 0%; 
+   margin-left: 0%; 
+   display: block;
+  align-items: flex-start;
+  width: 300px;
+  text-align: center
+}
+.w500px {
+  width: 269px;
+  margin-left: 0%;
+}
+footer {
+  background: #f8f8f8;
+  display: block;
+
+  height: unset;
+  padding:unset;
+  font-family: 'Gilroy';
+}
+._1 {
+  display: block; 
+
+}
+.footerTitle {
+  list-style: none;
+  align-items: flex-start; 
+  justify-content: flex-end; 
+  display: flex;
+  flex-direction: row;
+  margin-right: 30px;
+}
+.yes2 {
+  font-size: 48px;
+  font-family: "MuseoSansCyrl";
+  color: rgb(0, 0, 0);
+  text-transform: uppercase;
+  line-height: 1.2;
+  flex-direction: row;
+  display: flex;
+  margin-left: 30%;
+}
+.footer300{
+
+  margin-left: 27%;
+}
+footer {
+  background: none;
+  padding-top: 100%;
+  margin-left: 4%;
+}
+.unhide{
+  display: block;
+  margin-bottom: -110%;
+  margin-top: 26%;
+  width: 300px;
+}
+
+._02img5{
+
+  width: 250px;
+  display: block;
+  flex-direction: column;
+
+}
+aside {
+  width: 97%;
+  top: 26%;
+  left: 4%;
+}
+.textOnWindow {
+  width: 250px;
+  margin-left: 7%;
+  margin-bottom: 9%;
+}
+.импут {
+  font-size: 23px;
+  width: 239px;
+  height: 38px;
+}
+.buttonOnWindow {
+  width: 250px;
+}
+.close {
+  margin: 8%;
+  MARGIN-LEFT: 89%;
+}
+}
+
+
+
