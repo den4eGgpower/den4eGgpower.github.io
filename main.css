@@ -26,6 +26,9 @@ footer{
     color: red;
 
 }
+.phone:hover{
+  cursor: pointer;
+}
 .HeaderTitle{
     display: flex;
     flex-direction: row;
@@ -106,7 +109,7 @@ margin-left: -10%;
   }
   .button{
   box-shadow: 0px 10px 18px 0px rgba(246, 27, 60, 0.55);
-
+position: static;
   box-sizing: border-box;
   width: 300px;
   height: 60px;
@@ -456,7 +459,7 @@ aside{
   background-color: #ffffff;
   width: 57%;
   height: 600px;
-  position: absolute;
+  position: fixed;
   top: 30%;
   left: 20%;
   text-align: center;
@@ -880,9 +883,10 @@ footer {
 
 }
 aside {
-  width: 97%;
-  top: 26%;
+  width: 93%;
+  top: 3%;
   left: 4%;
+  height: 486px;
 }
 .textOnWindow {
   width: 250px;
