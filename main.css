@@ -460,7 +460,7 @@ aside{
   width: 57%;
   height: 600px;
   position: fixed;
-  top: 30%;
+  top: 2%;
   left: 20%;
   text-align: center;
   justify-content: center;
@@ -507,7 +507,7 @@ display: none;
   position: absolute;
   background-color: rgba(128, 128, 128, 0.5);
   width: 100%;
-  height: 1382%;
+  height: 995%;
   display: none;
 }
 
